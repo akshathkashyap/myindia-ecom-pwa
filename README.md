@@ -34,14 +34,10 @@ This is a Progressive Web App (PWA) for an e-commerce platform built with React.
 
 To start the development server at http://localhost:3000, run:
 
-    ```
     npm start
-    ```
 
 ## Deployed Version
 
 To use the deployed version of the application, paste the following URL into your browser:
 
-    ```
     https://main--myindia-ecom-pwa.netlify.app/
-    ```
