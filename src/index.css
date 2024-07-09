@@ -10,6 +10,26 @@
 
 @layer components {
 	.page-layout {
-		@apply container box-border px-1 mt-12;
+		@apply box-border px-1 mt-12 w-full;
+	}
+
+	.grid-layout {
+		@apply flex justify-center align-middle w-full py-4;
+	}
+
+	.search-bar {
+		@apply box-border relative md:!bg-none rounded-full bg-origin-content bg-right bg-contain bg-no-repeat pl-3 pr-9 py-[7px] w-full text-sm ring-1 ring-sky-500 shadow-md border-gray-300 focus:outline-none focus:bg-white;
+	}
+
+	.product-card {
+		@apply box-border relative flex flex-row justify-between content-center bg-white rounded-lg p-4 shadow-md;
+	}
+
+	.product-card.added {
+		@apply animate-added;
+	}
+
+	.product-card.removed {
+		@apply animate-removed;
 	}
 }
