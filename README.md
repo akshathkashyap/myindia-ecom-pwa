@@ -43,5 +43,5 @@ To start the development server at http://localhost:3000, run:
 To use the deployed version of the application, paste the following URL into your browser:
 
     ```
-    
+    https://main--myindia-ecom-pwa.netlify.app/
     ```
