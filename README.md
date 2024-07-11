@@ -27,7 +27,7 @@ This is a Progressive Web App (PWA) for an e-commerce platform built with React.
 3. Create a .env file in the project root directory and add the following line to connect to the API:
 
     ```
-    REACT_APP_API="https://a514-2405-201-10-5da1-150-7517-8214-22cf.ngrok-free.app"
+    REACT_APP_API="https://9761-49-36-11-129.ngrok-free.app"
     ```
 
 ## Development
